@@ -5,8 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "exit"
   },
+  "pre-push": ["test"],
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
@@ -25,6 +27,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "pre-push": "^0.1.1",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.5.21"
   },
