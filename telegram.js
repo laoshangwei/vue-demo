@@ -12,7 +12,7 @@ class PingController extends TelegramBaseController {
    * @param {Scope} $
    */
   pingHandler($) {
-    $.sendMessage("pong");
+    $.sendMessage("Test");
   }
 
   get routes() {
